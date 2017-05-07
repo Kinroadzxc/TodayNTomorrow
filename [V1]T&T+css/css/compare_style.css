@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+  background-color: #EDEDED;
+  margin:0;
+}
+.wrapper
+{
+  width:100%;
+  margin-top:14.5vh;
+}
+.div1
+{
+	background-color: aqua;
+	height: 150px;
+	width: 75%;
+	float: left;
+	padding: 10px;
+	font-size: 50px;
+	text-align: center;
+	margin:1%;
+}
+
+.div2
+{
+	background-color: crimson;
+	height: 150px;
+	width: 75%;
+	float: right;
+	padding: 10px;
+	font-size: 50px;
+	text-align: center;
+    margin:1%;
+}
+@media only screen and (max-width: 768px) {
+.div1
+	{
+		float: none;
+	}
+.div2
+	{
+		float: none;
+	}
+}

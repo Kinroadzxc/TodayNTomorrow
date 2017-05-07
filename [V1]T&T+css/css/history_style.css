@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.wrapper
+{
+  width:100%;
+  margin-top:14.5vh;
+}
+.TableHeading {
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+	color: #000;
+	text-align: right;
+	background-image: url(../Image/shuimopen.png);
+	background-repeat: no-repeat;
+	background-position: 320px bottom;
+}
+.TableHeading02 {
+	font-family: "Comic Sans MS";
+	text-align: center;
+	font-size: 14px;
+	background-image: url(../Image/shuimopen.png);
+	background-repeat: no-repeat;
+	background-position: 320px bottom;
+}
+table {
+	background-image: url(../Image/Shuimo.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}

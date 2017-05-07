@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Today</title>
+  <link rel="stylesheet" type="text/css" href="css/today_style2.css" />
+ <script type="text/javascript">  
+    /**  
+     * 获取颜色值  
+     */  
+    function getColorValue()  
+    {  
+        //获取color表单域值  
+        var color = document.getElementById("color").value;  
+        //将颜色值赋值给文本域  
+        document.getElementById("colorVal").value = color;  
+    }  
+</script> 
+</head>		
+
+<body>
+<div class="wrapper">
+<form method="post" id="todayrecord" name="todayrecord">
+    <div id="TodayRecordArea" style="margin:0 auto">
+ <textarea id="Text" wrap="logical" style="border:none; width:300px; height:100px">今天的心情是……</textarea>
+    </div>
+    <br>
+    <div id="ColorSelection" contenteditable="true" style="margin:0 auto;">请选出代表你今天心情的颜色 
+     <input type="color" name="color" id="color" />  
+     <input type="button" onclick="getColorValue();" value="获取颜色值" />  
+     <input type="text" id="colorVal" />  
+     <button style="width:90px; height:30px;">发 布</button>
+    <br>
+    其他风格选择： <a href="today-style1.html">多彩世界</a> &nbsp; &nbsp; <a href="today-style2.html">江南烟雨</a>
+     </div>
+</form>
+</div>
+</body>
+</html>
